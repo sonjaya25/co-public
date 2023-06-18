@@ -22,6 +22,7 @@ const {$qrCode} = useNuxtApp()
 const params = useParamsStore().data
 const QR = $qrCode
 
+
 onMounted(async () => {
     await useParamsStore().setData('aaaaaa')
     // console.log(getData.getData())
