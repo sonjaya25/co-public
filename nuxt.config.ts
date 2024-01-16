@@ -23,8 +23,4 @@ export default defineNuxtConfig({
       ["isDate", "isLodashDate"], // => _isLodashDate
     ],
   },
-  target: 'static',
-  router: {
-    base: '/co-web/' // Ganti 'repository-name' dengan nama repository GitHub Anda
-  }
 })
